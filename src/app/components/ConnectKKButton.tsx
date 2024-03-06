@@ -18,7 +18,7 @@ import { FaArrowDown } from 'react-icons/fa6';
 //@ts-ignore
 import { COIN_MAP_LONG } from '@pioneer-platform/pioneer-coins';
 
-const availableChains = ['BTC', 'ETH', 'MAYA', 'THOR', 'BNB', 'LTC', 'DASH', 'DOGE', 'XRP'];
+const availableChains = ['BTC', 'ETH', 'MAYA', 'THOR', 'BNB', 'LTC', 'DASH', 'DOGE', 'XRP', 'ZEC'];
 
 export default function ConnectKK() {
   const { connectWallet, disconnectWallet, keepkeyInstance } = useKeepKeyWallet();
