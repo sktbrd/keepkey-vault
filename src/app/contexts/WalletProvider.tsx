@@ -109,7 +109,7 @@ export const KeepKeyWalletProvider = ({ children, selectedChains }: KeepKeyWalle
                 apiKey: localStorage.getItem('keepkeyApiKey') || '123',
                 pairingInfo: {
                     name: "Keepkey Template",
-                    imageUrl: "https://i.pinimg.com/originals/24/77/56/247756ac928c5f60fc786aef33485f17.jpg",
+                    imageUrl: "https://pioneers.dev/coins/keepkey.png",
                     basePath: 'http://localhost:1646/spec/swagger.json',
                     url: 'http://localhost:1646',
                 }
