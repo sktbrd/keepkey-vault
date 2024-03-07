@@ -321,6 +321,7 @@ const Balances: React.FC = () => {
                                                             <Button
                                                                 size="sm"
                                                                 bg={"green.200"}
+                                                                color={"black"}
                                                                 onClick={() => {
                                                                     setAsset(token);
                                                                     setModalOpen(true);

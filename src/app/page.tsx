@@ -1,7 +1,8 @@
 'use client';
 import React, { useState } from 'react';
 import { ChakraProvider } from "@chakra-ui/react";
-import Header from "./components/Header"; // Assume this includes ConnectKK
+import Header from "./components/Header";
+import Footer from './components/Footer';
 import { KeepKeyWalletProvider } from './contexts/WalletProvider';
 import { extendTheme } from "@chakra-ui/react";
 import HomePage from '.';
@@ -39,6 +40,8 @@ export default function Home() {
       <KeepKeyWalletProvider selectedChains={selectedChains}>
         <Header />
         <HomePage />
+        <Footer />
+
       </KeepKeyWalletProvider>
     </ChakraProvider>
   );
