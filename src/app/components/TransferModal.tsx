@@ -50,7 +50,7 @@ const TransferModal: React.FC<TransferModalProps> = ({ sendingWallet, isModalOpe
         <>
             <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)}>
                 <ModalOverlay />
-                <ModalContent bgGradient="linear(to-r, gray.400, white)">
+                <ModalContent bgGradient="linear(to-r, black, gray)">
                     <ModalHeader>Transfer {symbol}</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
@@ -67,7 +67,7 @@ const TransferModal: React.FC<TransferModalProps> = ({ sendingWallet, isModalOpe
                             <Input value={memo} onChange={(e) => setMemo(e.target.value)} />
                         </Box>
                         <Flex>
-                            <Button colorScheme="blue" onClick={handleTransferClick}>Transfer</Button>
+                            <Button colorScheme="green" onClick={handleTransferClick}>Transfer</Button>
                             <Spacer />
                             <Button onClick={() => setModalOpen(false)}>Cancel</Button>
                         </Flex>

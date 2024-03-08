@@ -6,10 +6,8 @@ import ConnectKK from "./ConnectKKButton";
 
 const Header = () => {
     return (
-        <Flex align="center" justify="space-between" p={4} bgGradient="linear(to-r, black, grey)">
-            <Box>
-                <Image boxSize={"36px"} src="/keepkey_logo.avif" alt="CoinMasters" />
-            </Box>
+        <Flex align="center" justify="center" p={4} bgGradient="linear(to-r, black, grey)">
+
             <Box>
                 <ConnectKK />
             </Box>
