@@ -5,7 +5,7 @@ import { WalletContext, KeepKeyWalletProvider } from "./contexts/WalletProvider"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KeepKey dapp",
+  title: "KeepKey Vault",
   description: "by KeepKey Devs",
 };
 
