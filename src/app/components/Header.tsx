@@ -1,15 +1,18 @@
 import React from "react";
-import { Box, Flex, Spacer, Image } from "@chakra-ui/react";
+import { Box, Flex, Spacer, Image, HStack } from "@chakra-ui/react";
 import ConnectKK from "./ConnectKKButton";
 
 
 
 const Header = () => {
     return (
-        <Flex align="center" justify="center" p={4} bgGradient="linear(to-r, black, grey)">
+        <Flex align="center" justifyContent={"space-between"} p={2} bg="black">
+            <Image boxSize={"52px"} src="BOS.png" alt="Københavns Kommune" />
 
             <Box>
-                <ConnectKK />
+                <HStack >
+                    <ConnectKK />
+                </HStack>
             </Box>
         </Flex>
     );

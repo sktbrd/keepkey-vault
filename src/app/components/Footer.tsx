@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <Flex direction="column" justify="center" align="stretch" m={10} >
+        <Flex direction="column" justify="center" align="stretch" m={10} bgGradient="linear(to-r, grey, limegreen)"  >
             <Box alignSelf="flex-end">
                 <Link href="https://github.com/coinmastersguild/basic-sender" isExternal>
                     <FaGithub color="white" size="34px" />

@@ -15,18 +15,18 @@ export default function Home() {
   const theme = extendTheme({
     styles: {
       global: {
-        body: {
-          bg: "black",
+        html: {
           height: "100%",
-          width: "100%",
-          margin: 0,
-          padding: 0,
-          overflowX: "hidden",
-          fontFamily: "Share Tech Mono, monospace", // Add this line
         },
-        "#root": {
-          height: "100%",
-          width: "100%",
+        body: {
+          minHeight: "100vh", // This ensures the body takes at least the full viewport height
+          overflowX: "hidden", // Prevents horizontal scrolling
+          bg: "black",
+        },
+        "#__next": { // This assumes you are using Next.js. Adjust the selector if using a different setup.
+          minHeight: "100vh",
+          display: "flex",
+          flexDirection: "column",
         },
       },
     },

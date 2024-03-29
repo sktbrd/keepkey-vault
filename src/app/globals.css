@@ -92,3 +92,54 @@ a {
     color-scheme: dark;
   }
 }
+
+.gradient-bg {
+  background: linear-gradient(154deg, #2e413c, #1a9645, #417452, #306542, #254b23);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 26s ease infinite;
+  -moz-animation: AnimationName 26s ease infinite;
+  animation: AnimationName 26s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 18% 0%
+  }
+
+  50% {
+    background-position: 83% 100%
+  }
+
+  100% {
+    background-position: 18% 0%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 18% 0%
+  }
+
+  50% {
+    background-position: 83% 100%
+  }
+
+  100% {
+    background-position: 18% 0%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 18% 0%
+  }
+
+  50% {
+    background-position: 83% 100%
+  }
+
+  100% {
+    background-position: 18% 0%
+  }
+}
